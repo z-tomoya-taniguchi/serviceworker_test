@@ -1,7 +1,7 @@
 // キャッシュ名とキャッシュするファイルのリスト
 const CACHE_NAME = 'video-cache-v1';
 const FILES_TO_CACHE = [
-    '/assets/movie.mp4',  // キャッシュする動画ファイルのパス
+    '/serviceworker_test/assets/movie.mp4',  // キャッシュする動画ファイルのパス
 ];
 
 // インストールイベントでキャッシュを作成
